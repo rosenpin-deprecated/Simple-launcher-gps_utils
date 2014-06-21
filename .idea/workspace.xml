@@ -79,24 +79,21 @@
     <leaf>
       <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="47" selection-start="528" selection-end="528" vertical-scroll-proportion="-1.3888888" vertical-offset="87" max-vertical-offset="324">
+            <state line="9" column="19" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="324">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="19" selection-start="1794" selection-end="1794" vertical-scroll-proportion="0.0" vertical-offset="376" max-vertical-offset="846">
-              <folding>
-                <element signature="e#1421#1439#0" expanded="true" />
-                <element signature="e#1554#1572#0" expanded="true" />
-              </folding>
+            <state line="31" column="18" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="792">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,16 +101,20 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/hackathon/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="167" column="73" selection-start="6782" selection-end="6782" vertical-scroll-proportion="0.67839193" vertical-offset="2736" max-vertical-offset="3960">
+            <state line="60" column="40" selection-start="2031" selection-end="2031" vertical-scroll-proportion="0.5649547" vertical-offset="893" max-vertical-offset="4176">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1231#1238#0" expanded="true" />
-                <element signature="e#2911#3611#0" expanded="true" />
-                <element signature="e#3596#3597#0" expanded="true" />
-                <element signature="e#6943#7269#0" expanded="true" />
-                <element signature="e#7246#7247#0" expanded="true" />
-                <element signature="e#7315#7643#0" expanded="true" />
-                <element signature="e#7620#7621#0" expanded="true" />
+                <element signature="e#1256#1263#0" expanded="true" />
+                <element signature="e#2963#3784#0" expanded="true" />
+                <element signature="e#3769#3770#0" expanded="true" />
+                <element signature="e#7235#7561#0" expanded="true" />
+                <element signature="e#7538#7539#0" expanded="true" />
+                <element signature="e#7607#7936#0" expanded="true" />
+                <element signature="e#7913#7914#0" expanded="true" />
+                <element signature="e#7990#8409#0" expanded="true" />
+                <element signature="e#8386#8387#0" expanded="true" />
+                <element signature="e#8491#9149#0" expanded="true" />
+                <element signature="e#9125#9126#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,7 +123,7 @@
       <file leaf-file-name="Event.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/hackathon/Event.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+            <state line="11" column="18" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="52" max-vertical-offset="414">
               <folding />
             </state>
           </provider>
@@ -131,7 +132,7 @@
       <file leaf-file-name="DataBaseHelper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/hackathon/DataBaseHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="0" selection-start="3259" selection-end="3259" vertical-scroll-proportion="0.0" vertical-offset="1510" max-vertical-offset="1908">
+            <state line="110" column="0" selection-start="3259" selection-end="3259" vertical-scroll-proportion="0.0" vertical-offset="1564" max-vertical-offset="1908">
               <folding />
             </state>
           </provider>
@@ -140,7 +141,7 @@
       <file leaf-file-name="TestAdapter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/hackathon/TestAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="0" selection-start="1945" selection-end="1945" vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="1422">
+            <state line="65" column="142" selection-start="1604" selection-end="1611" vertical-scroll-proportion="0.0" vertical-offset="1008" max-vertical-offset="1422">
               <folding />
             </state>
           </provider>
@@ -149,7 +150,7 @@
       <file leaf-file-name="LoadFromDb.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/hackathon/LoadFromDb.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="486">
+            <state line="21" column="0" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0" vertical-offset="142" max-vertical-offset="486">
               <folding />
             </state>
           </provider>
@@ -169,9 +170,9 @@
         <option value="$PROJECT_DIR$/src/com/example/hackathon/DataBaseHelper.java" />
         <option value="$PROJECT_DIR$/src/com/example/hackathon/LoadFromDb.java" />
         <option value="$PROJECT_DIR$/res/layout/dialog.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/hackathon/Event.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/example/hackathon/TestAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/example/hackathon/Event.java" />
         <option value="$PROJECT_DIR$/src/com/example/hackathon/MyActivity.java" />
       </list>
     </option>
@@ -208,7 +209,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -258,6 +259,10 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -274,6 +279,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hackathon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hackathon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -311,7 +330,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -326,7 +345,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$USER_HOME$/ehud-start" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -376,19 +395,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -414,6 +420,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -512,6 +531,26 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="27" width="1368" height="742" extended-state="6" />
     <editor active="true" />
@@ -519,18 +558,17 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3987034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35332254" sideWeight="0.11893939" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26580226" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35332254" sideWeight="0.8810606" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -540,6 +578,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -566,22 +605,84 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="19" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="324">
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="18" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/hackathon/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="237" column="43" selection-start="10335" selection-end="10335" vertical-scroll-proportion="0.0" vertical-offset="4014" max-vertical-offset="5202">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1256#1263#0" expanded="true" />
+            <element signature="e#2963#3784#0" expanded="true" />
+            <element signature="e#3769#3770#0" expanded="true" />
+            <element signature="e#7235#7561#0" expanded="true" />
+            <element signature="e#7538#7539#0" expanded="true" />
+            <element signature="e#7607#7936#0" expanded="true" />
+            <element signature="e#7913#7914#0" expanded="true" />
+            <element signature="e#7990#8409#0" expanded="true" />
+            <element signature="e#8386#8387#0" expanded="true" />
+            <element signature="e#8491#9149#0" expanded="true" />
+            <element signature="e#9125#9126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/hackathon/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="11" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="396">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/hackathon/DataBaseHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="0" selection-start="3259" selection-end="3259" vertical-scroll-proportion="0.0" vertical-offset="1980" max-vertical-offset="2088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/hackathon/TestAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="42" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.0" vertical-offset="882" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/hackathon/LoadFromDb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="486">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="34" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="324">
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="94" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="792">
-          <folding>
-            <element signature="e#1421#1439#0" expanded="true" />
-            <element signature="e#1554#1572#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -590,13 +691,17 @@
         <state line="103" column="0" selection-start="3930" selection-end="3930" vertical-scroll-proportion="0.0" vertical-offset="1854" max-vertical-offset="1962">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1231#1238#0" expanded="true" />
-            <element signature="e#2911#3611#0" expanded="true" />
-            <element signature="e#3596#3597#0" expanded="true" />
-            <element signature="e#6943#7269#0" expanded="true" />
-            <element signature="e#7246#7247#0" expanded="true" />
-            <element signature="e#7315#7643#0" expanded="true" />
-            <element signature="e#7620#7621#0" expanded="true" />
+            <element signature="e#1256#1263#0" expanded="true" />
+            <element signature="e#2963#3784#0" expanded="true" />
+            <element signature="e#3769#3770#0" expanded="true" />
+            <element signature="e#7235#7561#0" expanded="true" />
+            <element signature="e#7538#7539#0" expanded="true" />
+            <element signature="e#7607#7936#0" expanded="true" />
+            <element signature="e#7913#7914#0" expanded="true" />
+            <element signature="e#7990#8409#0" expanded="true" />
+            <element signature="e#8386#8387#0" expanded="true" />
+            <element signature="e#8491#9149#0" expanded="true" />
+            <element signature="e#9125#9126#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -630,22 +735,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="34" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="324">
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="94" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="792">
-          <folding>
-            <element signature="e#1421#1439#0" expanded="true" />
-            <element signature="e#1554#1572#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -654,34 +756,35 @@
         <state line="14" column="25" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="522">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1231#1238#0" expanded="true" />
-            <element signature="e#2911#3611#0" expanded="true" />
-            <element signature="e#3596#3597#0" expanded="true" />
-            <element signature="e#6943#7269#0" expanded="true" />
-            <element signature="e#7246#7247#0" expanded="true" />
-            <element signature="e#7315#7643#0" expanded="true" />
-            <element signature="e#7620#7621#0" expanded="true" />
+            <element signature="e#1256#1263#0" expanded="true" />
+            <element signature="e#2963#3784#0" expanded="true" />
+            <element signature="e#3769#3770#0" expanded="true" />
+            <element signature="e#7235#7561#0" expanded="true" />
+            <element signature="e#7538#7539#0" expanded="true" />
+            <element signature="e#7607#7936#0" expanded="true" />
+            <element signature="e#7913#7914#0" expanded="true" />
+            <element signature="e#7990#8409#0" expanded="true" />
+            <element signature="e#8386#8387#0" expanded="true" />
+            <element signature="e#8491#9149#0" expanded="true" />
+            <element signature="e#9125#9126#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
           <folding />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
-          <folding>
-            <element signature="e#1421#1439#0" expanded="true" />
-            <element signature="e#1554#1572#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -690,13 +793,17 @@
         <state line="15" column="0" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="360">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1231#1238#0" expanded="true" />
-            <element signature="e#2911#3611#0" expanded="true" />
-            <element signature="e#3596#3597#0" expanded="true" />
-            <element signature="e#6943#7269#0" expanded="true" />
-            <element signature="e#7246#7247#0" expanded="true" />
-            <element signature="e#7315#7643#0" expanded="true" />
-            <element signature="e#7620#7621#0" expanded="true" />
+            <element signature="e#1256#1263#0" expanded="true" />
+            <element signature="e#2963#3784#0" expanded="true" />
+            <element signature="e#3769#3770#0" expanded="true" />
+            <element signature="e#7235#7561#0" expanded="true" />
+            <element signature="e#7538#7539#0" expanded="true" />
+            <element signature="e#7607#7936#0" expanded="true" />
+            <element signature="e#7913#7914#0" expanded="true" />
+            <element signature="e#7990#8409#0" expanded="true" />
+            <element signature="e#8386#8387#0" expanded="true" />
+            <element signature="e#8491#9149#0" expanded="true" />
+            <element signature="e#9125#9126#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -706,16 +813,6 @@
         <state line="7" column="0" selection-start="191" selection-end="191" vertical-scroll-proportion="0.3233533" vertical-offset="0" max-vertical-offset="1206" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="47" selection-start="528" selection-end="528" vertical-scroll-proportion="-1.3888888" vertical-offset="87" max-vertical-offset="324">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/facebook_icon.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -723,17 +820,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="19" selection-start="1794" selection-end="1794" vertical-scroll-proportion="0.0" vertical-offset="376" max-vertical-offset="846">
+        <state line="31" column="18" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../adt-bundle-linux-x86_64-20131030/sdk/sources/android-19/android/app/AlertDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="572" column="87" selection-start="22301" selection-end="22308" vertical-scroll-proportion="0.33222592" vertical-offset="9278" max-vertical-offset="16128">
           <folding>
-            <element signature="e#1421#1439#0" expanded="true" />
-            <element signature="e#1554#1572#0" expanded="true" />
+            <element signature="method#setOnDismissListener#0;class#Builder#0;class#AlertDialog#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/hackathon/TestAdapter.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="0" selection-start="1945" selection-end="1945" vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="1422">
+        <state line="9" column="19" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="324">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../adt-bundle-linux-x86_64-20131030/sdk/sources/android-19/java/lang/Override.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="1" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.37209302" vertical-offset="70" max-vertical-offset="414" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/hackathon/DataBaseHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="0" selection-start="3259" selection-end="3259" vertical-scroll-proportion="0.0" vertical-offset="1510" max-vertical-offset="1908">
           <folding />
         </state>
       </provider>
@@ -747,30 +865,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/hackathon/Event.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+        <state line="11" column="18" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="52" max-vertical-offset="414">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/hackathon/DataBaseHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/hackathon/TestAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="0" selection-start="3259" selection-end="3259" vertical-scroll-proportion="0.0" vertical-offset="1510" max-vertical-offset="1908">
+        <state line="65" column="142" selection-start="1604" selection-end="1611" vertical-scroll-proportion="0.0" vertical-offset="1008" max-vertical-offset="1422">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/hackathon/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="167" column="73" selection-start="6782" selection-end="6782" vertical-scroll-proportion="0.67839193" vertical-offset="2736" max-vertical-offset="3960">
+        <state line="60" column="40" selection-start="2031" selection-end="2031" vertical-scroll-proportion="0.5649547" vertical-offset="893" max-vertical-offset="4176">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1231#1238#0" expanded="true" />
-            <element signature="e#2911#3611#0" expanded="true" />
-            <element signature="e#3596#3597#0" expanded="true" />
-            <element signature="e#6943#7269#0" expanded="true" />
-            <element signature="e#7246#7247#0" expanded="true" />
-            <element signature="e#7315#7643#0" expanded="true" />
-            <element signature="e#7620#7621#0" expanded="true" />
+            <element signature="e#1256#1263#0" expanded="true" />
+            <element signature="e#2963#3784#0" expanded="true" />
+            <element signature="e#3769#3770#0" expanded="true" />
+            <element signature="e#7235#7561#0" expanded="true" />
+            <element signature="e#7538#7539#0" expanded="true" />
+            <element signature="e#7607#7936#0" expanded="true" />
+            <element signature="e#7913#7914#0" expanded="true" />
+            <element signature="e#7990#8409#0" expanded="true" />
+            <element signature="e#8386#8387#0" expanded="true" />
+            <element signature="e#8491#9149#0" expanded="true" />
+            <element signature="e#9125#9126#0" expanded="true" />
           </folding>
         </state>
       </provider>

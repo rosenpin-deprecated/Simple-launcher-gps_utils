@@ -8,6 +8,8 @@ import com.google.android.gms.maps.model.Marker;
 public class Event {
     Marker eventMarker;
     String eventExpirationDate;
+    String Tag;
+    String address;
 
     public Event(){
 

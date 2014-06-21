@@ -63,7 +63,7 @@ public class TestAdapter
     public Cursor getTestData()
     {
         try{
-            String sql ="SELECT eventName, eventLat, eventLng, eventURL, eventDescription, eventExpiriationDate, websiteURL, eventTag FROM events";
+            String sql ="SELECT eventName, eventLat, eventLng, eventURL, eventDescription, eventExpiriationDate, websiteURL, eventTag, address FROM events";
 
             Cursor mCur = mDb.rawQuery(sql, null);
             if (mCur!=null){

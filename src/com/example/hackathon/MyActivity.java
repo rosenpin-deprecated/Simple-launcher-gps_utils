@@ -1,6 +1,5 @@
 package com.example.hackathon;
 
-import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -23,6 +22,7 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Random;
 
 public class MyActivity extends Activity implements GoogleMap.OnMarkerClickListener{
     /**
@@ -34,7 +34,7 @@ public class MyActivity extends Activity implements GoogleMap.OnMarkerClickListe
 
     Event hackathon = new Event();
     Event backToSchool = new Event();
-
+    Event event = new Event();
 
     ArrayList<Event> events = new ArrayList<Event>();
 
@@ -67,6 +67,7 @@ public class MyActivity extends Activity implements GoogleMap.OnMarkerClickListe
     public void initializeEvents(){
         events.add(hackathon);
         events.add(backToSchool);
+        events.add(event);
     }
 
     @Override
@@ -90,6 +91,8 @@ public class MyActivity extends Activity implements GoogleMap.OnMarkerClickListe
                     me.setPosition(new LatLng(location.getLatitude(), location.getLongitude()));
                     CameraUpdate center = CameraUpdateFactory.newLatLng(new LatLng(me.getPosition().latitude,
                             me.getPosition().longitude));
+                    /*CameraUpdate center = CameraUpdateFactory.newLatLng(new LatLng(4,
+                          4));*/
                     CameraUpdate zoom=CameraUpdateFactory.zoomTo(18);
                     if(i == 1){
                         googleMap.moveCamera(center);
@@ -147,17 +150,19 @@ public class MyActivity extends Activity implements GoogleMap.OnMarkerClickListe
                 String eventDescription = LoadFromDb.GetColumnValueString(testdata, "eventDescription");
                 final String eventURL = LoadFromDb.GetColumnValueString(testdata, "eventURL");
                 final String websiteURL = LoadFromDb.GetColumnValueString(testdata, "websiteURL");
+                final String eventTag = LoadFromDb.GetColumnValueString(testdata, "eventTag");
+                final String eventAddress = LoadFromDb.GetColumnValueString(testdata, "address");
                 if(marker.equals(events.get(i).eventMarker)){
                     AlertDialog.Builder markerDialog = new AlertDialog.Builder(MyActivity.this);
-                    markerDialog.setTitle(eventName);
-                    markerDialog.setMessage("event discription \n" + eventDescription);
+                    markerDialog.setTitle(eventName + "\n");
+                    markerDialog.setMessage(eventTag + "\n" + "event discription \n" + eventDescription);
                     Button facebook = new Button(this);
                     Button web = new Button(this);
-                    Button lookForSimilarEvents = new Button(this);
+                    Button takeMeThere = new Button(this);
                     LinearLayout lin = new LinearLayout(getApplicationContext());
                     lin.addView(facebook);
                     lin.addView(web);
-                    lin.addView(lookForSimilarEvents);
+                    lin.addView(takeMeThere);
                     LinearLayout.LayoutParams def = new LinearLayout.LayoutParams(100, 100);
                     def.setMargins(50,50,50,50);
                     def.gravity = Gravity.CENTER;
@@ -165,8 +170,7 @@ public class MyActivity extends Activity implements GoogleMap.OnMarkerClickListe
                     facebook.setBackgroundResource(R.drawable.facebook_icon);
                     web.setBackgroundResource(R.drawable.web);
                     web.setLayoutParams(def);
-                    lookForSimilarEvents.setText("look for similar events");
-                    //lookForSimilarEvents.setLayoutParams();
+                    takeMeThere.setText("Take me There");
                     markerDialog.setView(lin);
                     facebook.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -180,13 +184,30 @@ public class MyActivity extends Activity implements GoogleMap.OnMarkerClickListe
                         public void onClick(View v) {
                             Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(websiteURL));
                             startActivity(browserIntent);
-                        }
-                    });
-                    markerDialog.setPositiveButton("ok", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
 
                         }
+                    });
+                    takeMeThere.setOnClickListener(new View.OnClickListener() {
+
+                        @Override
+                        public void onClick(View v) {
+                            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("google.navigation:q=" + eventAddress));
+                            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                            startActivity(intent);
+
+                        }
+                    });
+                    markerDialog.setPositiveButton("look for an random event", new DialogInterface.OnClickListener() {
+
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            Random rand = new Random();
+                            int o =  rand.nextInt((events.size() - 1 - 0) + 1) + 0;
+                                  CameraUpdate animated = CameraUpdateFactory.newLatLng(new LatLng(events.get(o).eventMarker.getPosition().latitude,
+                                          events.get(o).eventMarker.getPosition().longitude));
+                                  googleMap.moveCamera(animated);
+                            }
+
                     });
                     markerDialog.show();
                 }
@@ -203,13 +224,4 @@ public class MyActivity extends Activity implements GoogleMap.OnMarkerClickListe
         }
         return true;
     }
-
-
-    /*public class CustomDialog extends Dialog {
-        public CustomDialog(final Context context){
-            super(context);
-            setContentView(R.layout.dialog);
-        }
-    }*/
-
 }
